@@ -29,7 +29,8 @@ select,
 textarea,
 header h1,
 .field-row label,
-.field-row-2 label { 
+.field-row-2 label,
+.chkbox-radio-title { 
 	font-weight: 300;
 }
 
@@ -147,6 +148,12 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 }
+
+ .chkbox-radio-title {
+ 	text-align: left;
+ 	margin-top: 0;
+    margin-bottom: 5px;	
+ }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   text-align: right;

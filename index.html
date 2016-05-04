@@ -50,7 +50,7 @@
 					<div class="field-row">
 						<label for="states">States</label>
 						<select id="states" name="user-states">
-							<option value="" selected>Choose State</option>
+							<option value="" disabled selected hidden>Choose State</option>
 							<option value="AL">Alabama</option>
 							<option value="AK">Alaska</option>
 							<option value="AZ">Arizona</option>
@@ -114,20 +114,20 @@
 				<fieldset>
 					<legend>Newsletter</legend>
 					<div class="field-row-2">
-						<label>Select the newsletters you would like to receive</label><br>
+						<p class="chkbox-radio-title">Select the newsletters you would like to receive</p>
 						<input type="checkbox" id="html-news" name="news-type" /><label for="html-news">HTML News</label>
 						<input type="checkbox" id="css-news" name="news-type" /><label for="css-news">CSS News</label>
 						<input type="checkbox" id="js-news" name="news-type" /><label for="js-news">Javascript News</label>
 					</div>
 
 					<div class="field-row-2">
-						<label>Newsletter Format</label><br>
+						<p class="chkbox-radio-title">Newsletter Format</p>
 						<input type="radio" id="html-format" name="news-format" /><label for="html-format" class="radio-label">HTML</label>
 						<input type="radio" id="plain-format" name="news-format" /><label for="plain-format" class="radio-label">Plain text</label>
 					</div>
 
 					<div class="field-row-2">
-						<label>Newsletter Frequency</label><br>
+						<p class="chkbox-radio-title">Newsletter Frequency</p>
 						<input type="radio" id="daily-freq" name="news-freq" /><label for="daily-freq" class="radio-label">Daily</label>
 						<input type="radio" id="weekly-freq" name="news-freq" /><label for="weekly-freq" class="radio-label">Weekly</label>
 						<input type="radio" id="biweekly-freq" name="news-freq" /><label for="biweekly-freq" class="radio-label">Bi-weekly</label>
